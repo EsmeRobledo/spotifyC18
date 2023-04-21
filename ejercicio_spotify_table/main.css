@@ -1,0 +1,181 @@
+* {
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background: #000;
+  color: white;
+  display: grid;
+  grid-template-columns: 4;
+}
+
+header ul li {
+  display: inline;
+  list-style: none;
+  margin-left: 20px;
+  font-weight: bold;
+}
+
+.col-1 {
+  grid-column: span 1;
+  grid-row: 1;
+}
+
+.col-2 {
+  grid-column: span 1;
+  grid-row: 1;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+}
+
+.banner-rosa {
+  height: 15rem;
+  background: #ffd4db;
+  padding-top: 72px;
+  padding-bottom: 40px;
+}
+
+.banner-contenido {
+  white-space: nowrap;
+  overflow: hidden;
+  margin-left: 20rem;
+}
+
+h3 {
+  font-weight: lighter;
+}
+
+button {
+  font-weight: bold;
+  border-radius: 24px;
+  height: 48px;
+  padding-top: 2px;
+  padding-left: 24px;
+  padding-right: 24px;
+  background: #ffd4db;
+}
+
+.subrayado {
+  text-decoration: underline;
+}
+
+.boton-black {
+  background: #000;
+  color: white;
+}
+
+.elige {
+  margin: 90px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.elige h1 {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.elige h4 {
+  text-align: center;
+  font-size: 18px;
+}
+
+.tabla {
+  width: 85%;
+  margin: auto;
+  margin-top: 25px;
+  gap: 10px;
+  /* border-spacing: 10px 0; */
+}
+
+.elige tr,
+td {
+  border: 1px solid rgb(170, 164, 164);
+  border-radius: 15px;
+  padding: 20px;
+  vertical-align: top;
+  width: 25%;
+}
+
+.elige .azul {
+  width: 85%;
+  margin: 5px;
+  color: white;
+  font-weight: bold;
+  background-color: #1572e2;
+  border-radius: 5px;
+  height: 25px;
+  padding-top: 3px;
+  padding-left: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.elige .blanco {
+  width: 75%;
+  margin: 5px;
+  color: #1572e2;
+  font-weight: bold;
+  border: 1px solid #1572e2;
+  border-radius: 5px;
+  height: 25px;
+  padding-top: 3px;
+  padding-left: 10px;
+  text-align: left;
+  font-size: 14px;
+}
+
+.elige button {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 100px;
+  padding: 15px 30px;
+  border: none;
+  color: white;
+  background-color: black;
+  width: 65%;
+}
+
+.elige ul li {
+  font-size: 16px;
+  list-style-image: url("checkmark.png");
+  margin-left: 35px;
+}
+
+.elige p {
+  font-size: 16px;
+  margin-top: 3px;
+}
+
+.elige .terminos {
+  font-size: 12px;
+}
+
+.elige p a {
+  color: #000;
+}
+
+.elige .linea {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  height: 2px;
+  background-color: rgb(88, 85, 85);
+}
+
+.elige .centro {
+  text-align: center;
+}
+
+.elige .superior {
+  height: 220px;
+}
+
+.elige .medio {
+  height: 350px;
+}
+
+.elige .bajo {
+  height: 200px;
+}
